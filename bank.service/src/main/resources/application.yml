@@ -1,0 +1,15 @@
+server:
+    port: 8086
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5433/bank_info
+        username: postgres
+        password: postgres
+    jpa:
+        hibernate:
+            ddl-auto: update
+
+
+
+
+
